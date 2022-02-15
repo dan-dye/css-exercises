@@ -20,6 +20,10 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /*edits*/
+  display: flex;
+  padding: 16px;
+  gap: 16px;
 }
 
 .icon {
@@ -33,7 +37,28 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /*edits*/
+  flex-shrink: 0;
 }
+
+/*edits*/
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.top-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  font-size: 18px;
+  font-weight: bold;
+}
+/*end edits*/
 
 .close-button {
   background: #eee;
@@ -51,6 +76,8 @@ body {
 button {
   padding: 8px 16px;
   border-radius: 8px;
+  /*edits*/
+  margin-top: 8px;
 }
 
 button.continue {
