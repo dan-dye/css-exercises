@@ -1,6 +1,22 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  /*edits*/
+  text-align: center;
 }
+
+/*edits*/
+.image-container {
+  display: flex;
+  gap: 52px;
+  margin: 32px 0;
+  justify-content: center;
+}
+
+.image-captioned {
+  max-width: 200px;
+}
+
+/*end-edits*/
 
 img {
   width: 100px;
